@@ -1,0 +1,2 @@
+WS2812_DRIVER = vendor
+COMBO_ENABLE = yes
