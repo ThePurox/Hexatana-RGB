@@ -89,6 +89,10 @@ If no LED lights up you might be one of the (un)lucky people with an LED produce
 1) you can try replacing the first LED (`D37`) and see whether the LEDs light up now, or
 2) remove the solder from the solder jumper on the top side of the PCB and bridge the center pad with the top pad. Now the LED is powered with 4.3V and the 3.3V on the dataline are in spec.
 
+### Installing stabilising capacitors (very optional)
+There are 6 spots for capacitors next to the outer most switches of the top three key-rows.
+The capacitors can be soldered onto the PCB to stabilise the power of the LEDs, however everything should work without them.
+
 ## Installing the hot-swap sockets
 Turn the keyboard around, such that you can see the 6 swords again.
 Now solder the hot-swap sockets onto the last solderpads that are not connected to anything yet.
