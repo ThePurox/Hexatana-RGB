@@ -16,7 +16,7 @@ On the top side of the PCB you will find a lot of `U`-shaped markings in with `D
 The top side of the diodes shows a vertical line followed by the letters T4, i.e. it looks like  `|T4`.
 The diode has to be solder to the PCB such that the vertical line is on the closed side of the `U`-marking.
 Solder in all 37 diodes that way.
-Diodes `D1-D36` are in the center of the PCB, diode `D73` is $\approx 4$cm right of the MCU.
+Diodes `D1-D36` are in the center of the PCB, diode `D73` is $\approx 4\,\mathrm{cm}$ right of the MCU.
 
 
 ## Testing the keyboard
@@ -64,7 +64,7 @@ The LEDs are also very sensitive to temperature, so be careful when soldering th
 ### Picking a position for the solder jumper / picking a voltage for the first LED
 Turn the keyboard around once more, such that you can no longer see the swords and the MCU is facing away from you.
 #### Background
-Approximately 3cm to the right side of the MCU you will find a solder-jumper.
+Approximately $3\,\mathrm{cm}$ to the right side of the MCU you will find a solder-jumper.
 It is used to pick between two possible voltages powering the first LED of the backlight.
 The datalines of the backlight-LEDs are not specified to work with the 3.3V supplied by the MCU, when the LEDs are driven by (the standard) 5V.
 However usually they do still work in that scenario.
