@@ -98,7 +98,7 @@ Now turn the keyboard around one last time and install the switches and keycaps.
 
 # Flashing Firmware
 ## QMK
-The ncecessary files for a [QMK-firmware](qmk.fm) can be found in the firmware directory one layer up.
+The ncecessary files for a [QMK-firmware](qmk.fm) can be found in the [firmware directory](./qmk-firmware).
 ## ZMK
 There is a basic [zmk](https://github.com/ThePurox/hexatana-zmk/) repository.
 Feel free to fork it and adjust everything to your liking.
