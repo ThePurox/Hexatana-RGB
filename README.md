@@ -1,7 +1,6 @@
 # Hexatana
 Hexatana is a 36 katana-inspired keyboard designed around [hexagonal keycaps](https://hw.s-ol.nu/HEX-keycaps/).
-![front view of keyboard](front.png)
-![back view of keyboard](back.png)
+![front view of keyboard](front.jpeg)
 
 # Soldering
 ## MCU
@@ -25,9 +24,21 @@ Now the keyboard should be functional.
 You can test that by plugging the keyboard into a computer and opening a text editor of your choice.
 Turn the keyboard around, such that you can see the 6 katanas and grab yourself a pair of metal tweezers or a pair of scissors.
 Connect two adjacent solder pads.
-Now a letter should appear on your keyboard.
-Repeat these steps for all solderpads connected with white paint.
-In your text editor you should see the letters `a-z` and the numbers `0-9`.
+A key press corresponding to the following keymap should be registered
+<!-- Now a letter should appear on your keyboard. -->
+<!-- Repeat these steps for all solderpads connected with white paint. -->
+<!-- In your text editor you should see the letters `a-z` and the numbers `0-9`. -->
+<!-- The default keymap of the keyboard is -->
+```
+  q w e r t      z u i o p
+ a s d f g        h j k l OSS
+y x c v b          n m , . -
+    CTRL ESC    TAB ALT
+        SPACE  ENTER
+```
+, where `OSS` is one-shot-shift.
+Note the keymap presented here is show with the keyboard in its natural orientation.
+You are probably holding it the other way round so you should a mirrored keymap.
 If one of them didn't show up, this likely means that one of the diodes is not soldered in correctly.
 When all keys work we can install the hot-swap sockets which will allow us to mount the switches.
 However before we do those it is advisable to first install the optional LED-backlight.
