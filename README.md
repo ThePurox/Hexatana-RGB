@@ -12,7 +12,7 @@ So to solder the MCU in place, put the main PCB on your soldering surface, such 
 You can now optionally stabilize the MCU with pin headers and solder the MCU to the main PCB.
 
 ## Soldering in the diodes
-On the top side of the PCB you will find a lot of `U`-shaped markings in with `Dx` where `x` is a number $\in {1-36,73}$ next to them
+On the top side of the PCB you will find a lot of `U`-shaped markings in with `Dx` where `x` is a number $\in \{1-36,73\}$ next to them
 The top side of the diodes shows a vertical line followed by the letters T4, i.e. it looks like  `|T4`.
 The diode has to be solder to the PCB such that the vertical line is on the closed side of the `U`-marking.
 Solder in all 37 diodes that way.
