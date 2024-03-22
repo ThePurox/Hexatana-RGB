@@ -15,6 +15,9 @@ You can now optionally stabilize the MCU with pin headers and solder the MCU to 
 On the top side of the PCB you will find a lot of `U`-shaped markings in with `Dx` where `x` is a number $\in \{1-36,73\}$ next to them
 The top side of the diodes shows a vertical line followed by the letters T4, i.e. it looks like  `|T4`.
 The diode has to be solder to the PCB such that the vertical line is on the closed side of the `U`-marking.
+A soldered diode should look like the one in the following picture.
+![picture of a soldered diode](diodes.webp)
+
 Solder in all 37 diodes that way.
 Diodes `D1-D36` are in the center of the PCB, diode `D73` is $\approx 4\,\mathrm{cm}$ right of the MCU.
 
@@ -102,7 +105,7 @@ Now turn the keyboard around one last time and install the switches and keycaps.
 
 # Flashing Firmware
 ## QMK
-The ncecessary files for a [QMK-firmware](qmk.fm) can be found in the [firmware directory](./qmk-firmware).
+The ncecessary files for a [QMK-firmware](https://qmk.fm) can be found in the [firmware directory](./qmk-firmware).
 ## ZMK
 There is a basic [zmk](https://github.com/ThePurox/hexatana-zmk/) repository.
 Feel free to fork it and adjust everything to your liking.
