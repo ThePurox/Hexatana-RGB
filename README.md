@@ -106,6 +106,8 @@ Now turn the keyboard around one last time and install the switches and keycaps.
 # Flashing Firmware
 ## QMK
 The ncecessary files for a [QMK-firmware](https://qmk.fm) can be found in the [firmware directory](./qmk-firmware).
+## VIAL
+[Exen904](https://github.com/exen904) was so kind and build a [VIAL](https://get.vial.today/) firmware which can be found [here](https://github.com/exen904/vial-qmk/tree/exen904/keyboards/purox/hexatana)
 ## ZMK
 There is a basic [zmk](https://github.com/ThePurox/hexatana-zmk/) repository.
 Feel free to fork it and adjust everything to your liking.
