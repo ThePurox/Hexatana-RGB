@@ -29,7 +29,7 @@ To clean up the PCB the silkscreen markings for the diodes were removed.
 The diodes shall be soldered in to the footprints were one pad is rectangular, and the other pad is pentagonal.
 The pointy bit of the pentagon points to the kathode. I.e. the line marking on the diode need to be soldered to the rectangular pad.
 The right direction is shown in the following picture.
-![picture of how to solder diodes](diodes-footprint.webm)
+![picture of how to solder diodes](diodes-footprint.webp)
 
 Solder in all 37 diodes.
 36 Diodes are in the center of the PCB, the final diode is $\approx 4\,\mathrm{cm}$ right of the MCU.
