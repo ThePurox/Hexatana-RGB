@@ -12,6 +12,9 @@ So to solder the MCU in place, put the main PCB on your soldering surface, such 
 You can now optionally stabilize the MCU with pin headers and solder the MCU to the main PCB.
 
 ## Soldering in the diodes
+There exist two versions of the PCB, one has silkscreen marking for the orientation of the diodes, in the other one the shape of the solderpads indicates the direction of the diodes.
+
+### silkscreen marking
 On the top side of the PCB you will find a lot of `U`-shaped markings in with `Dx` where `x` is a number $\in \{1-36,73\}$ next to them
 The top side of the diodes shows a vertical line followed by the letters T4, i.e. it looks like  `|T4`.
 The diode has to be solder to the PCB such that the vertical line is on the closed side of the `U`-marking.
@@ -20,6 +23,16 @@ A soldered diode should look like the one in the following picture.
 
 Solder in all 37 diodes that way.
 Diodes `D1-D36` are in the center of the PCB, diode `D73` is $\approx 4\,\mathrm{cm}$ right of the MCU.
+
+### Solderpad marking
+To clean up the PCB the silkscreen markings for the diodes were removed.
+The diodes shall be soldered in to the footprints were one pad is rectangular, and the other pad is pentagonal.
+The pointy bit of the pentagon points to the kathode. I.e. the line marking on the diode need to be soldered to the rectangular pad.
+The right direction is shown in the following picture.
+![picture of how to solder diodes](diodes-footprint.webm)
+
+Solder in all 37 diodes.
+36 Diodes are in the center of the PCB, the final diode is $\approx 4\,\mathrm{cm}$ right of the MCU.
 
 
 ## Testing the keyboard
