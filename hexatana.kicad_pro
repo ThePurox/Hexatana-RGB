@@ -58,7 +58,16 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "courtyards_overlap|114109623|69565159|c7a4c0f1-13ad-4bff-a58f-f0c29c4562b7|4f9c2579-88ac-43a4-81ab-89e571cf25fc",
+        "courtyards_overlap|114109625|91804257|5dcb4d01-352d-4274-9ada-268118952186|6cdf8f1c-3139-45a1-9b43-4a7408c0e5a4",
+        "courtyards_overlap|124859623|50945611|80baf13a-b7fd-460f-9749-00dbd1b8602a|97af0f58-1ed6-4ab8-a917-42f588c8f1c5",
+        "courtyards_overlap|124859625|110423805|4240e3ab-4040-4ac9-89ea-ff082cc689ba|2739c59c-b5be-4c27-9d12-48c55496978d",
+        "courtyards_overlap|154433506|51252127|a8a270b2-8d73-4ef8-a379-3b4f3892ab7d|9c9cd019-fcd7-44d5-82c2-f15b600e9f7a",
+        "courtyards_overlap|154610474|110423805|983c7619-5eb3-4ae1-a88d-0ae210011954|d925eeb8-f1e2-4f47-9bbc-903319abf605",
+        "courtyards_overlap|165360473|69565159|09c3b7c5-8ba8-4b54-8684-5e1ababe3751|b4d603be-971d-4a58-9fa9-0818060bfc44",
+        "courtyards_overlap|165360474|91804257|d5132145-bcf9-4a14-abcc-9091ce0a524c|04323803-c4f9-4e47-a76c-5badce4262c8"
+      ],
       "meta": {
         "version": 2
       },
@@ -487,8 +496,8 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
-      "svg": "",
+      "step": "hexatana.step",
+      "svg": "case/",
       "vrml": ""
     },
     "page_layout_descr_file": ""
